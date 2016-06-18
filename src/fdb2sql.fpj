@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<VersionInfo>
+		<VersionNumbers Major="1" Minor="0" Release="0" Build="31"/>
+		<LanguageID Value="1046"/>
+		<CharsetID Value="1252"/>
+		<CompanyName Value="MZSW"/>
+		<FileVersion Value="1.0.0.31"/>
+		<FileDescription Value="Export data from FDB file to SQL statement"/>
+		<InternalName Value="fdb2sql.exe"/>
+		<LegalCopyright Value=""/>
+		<LegalTrademarks Value=""/>
+		<OriginalFilename Value="fdb2sql.exe"/>
+		<ProductName Value="FDB To SQL"/>
+		<ProductVersion Value="1.0.0.31"/>
+		<AutoIncrementBuild Value="Yes"/>
+	</VersionInfo>
+	<Libs Value=""/>
+	<Flags Value="-DIBPP_WINDOWS -D_WIN32_WINNT=0x0502 -Iibpp"/>
+	<Target Value="..\bin\fdb2sql.exe"/>
+	<CommandLine Value="-d D:\Projects\fdb2sql\data\EMPLOYEE.FDB -o ..\data\output.sql -i ..\data\input.sql"/>
+	<CompilerOptions Value="-Wall -s -O2"/>
+	<DeleteObjectsBefore Value="No"/>
+	<DeleteObjectsAfter Value="No"/>
+	<DeleteMakefileAfter Value="No"/>
+	<DeleteResourcesAfter Value="No"/>
+	<EnableTheme Value="No"/>
+	<RequiresAdmin Value="No"/>
+	<CompilerType Value="CPP"/>
+	<AppType Value="CONSOLE"/>
+	<Files>
+		<Folder Name="ibpp">
+			<File Name="array.cpp"/>
+			<File Name="blob.cpp"/>
+			<File Name="database.cpp"/>
+			<File Name="date.cpp"/>
+			<File Name="dbkey.cpp"/>
+			<File Name="events.cpp"/>
+			<File Name="exception.cpp"/>
+			<File Name="row.cpp"/>
+			<File Name="service.cpp"/>
+			<File Name="statement.cpp"/>
+			<File Name="time.cpp"/>
+			<File Name="transaction.cpp"/>
+			<File Name="user.cpp"/>
+			<File Name="_dpb.cpp"/>
+			<File Name="_ibpp.cpp"/>
+			<File Name="_ibs.cpp"/>
+			<File Name="_rb.cpp"/>
+			<File Name="_spb.cpp"/>
+			<File Name="_tpb.cpp"/>
+			<File Name="ibase.h"/>
+			<File Name="iberror.h"/>
+			<File Name="ibpp.h"/>
+			<File Name="_ibpp.h"/>
+		</Folder>
+		<File Name="main.cpp"/>
+	</Files>
+</Project>
